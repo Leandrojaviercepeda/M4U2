@@ -3,7 +3,7 @@ import '../styles/components/pages/ContactoPage.css';
 
 const ContactoPage = () => {
   return (
-    <main className="holder">
+    <main className="main">
       <div className="columna contacto">
         <h2>Complete el siguiente formulario</h2>
         <form action='' method='' className='formulario'>

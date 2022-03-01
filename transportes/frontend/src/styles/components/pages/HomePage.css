@@ -1,17 +1,31 @@
 .homeimg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     clear: both;
     margin-bottom: 1.5em;
 }
 
+.img {
+    width: fit-content;
+    max-width: 95%;
+}
+
+.columnas {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
 .bienvenidos {
-    width: 75%;
-    padding-right: 2em;
     float: left;
 }
 
 .bienvenidos, .testimonios {
+    padding: 2em;
     display: inline-block;
     box-sizing: border-box;
+    flex-wrap: nowrap;
 }
 
 .bienvenidos p {
@@ -19,7 +33,6 @@
 }
 
 .testimonios {
-    width: 25%;
     float: right;
 }
 
