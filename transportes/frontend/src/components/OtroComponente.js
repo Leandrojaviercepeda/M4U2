@@ -6,7 +6,7 @@ function OtroComponente(props) {
   const [counter, setCounter] = useState(0);
 
   return (
-    <div className="main">
+    <div className="container">
       <div className='counter'>
         <h3>{`Contador: ${counter}`}</h3>
       </div>
