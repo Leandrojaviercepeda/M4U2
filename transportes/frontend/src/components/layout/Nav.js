@@ -5,7 +5,7 @@ import '../../styles/components/layout/Nav.css';
 const Nav = () => {
   return (
     <nav>
-      <div className="holder">
+      <div>
         <ul>
           <li><NavLink activeClassName="activo" exact to="/">Home</NavLink></li>
           <li><NavLink activeClassName="activo" exact to="/nosotros">Nosotros</NavLink></li>

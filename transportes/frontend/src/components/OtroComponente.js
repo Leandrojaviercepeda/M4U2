@@ -1,10 +1,19 @@
-import React from 'react'
+import React, { useState } from 'react';
+import '../styles/components/OtroComponente.css';
 
 function OtroComponente(props) {
 
+  const [counter, setCounter] = useState(0);
+
   return (
-    <div className="holder">
-      <h3>{`En este Otro Componente puedes ver la fecha de hoy:  ${new Date().getDay()}/${new Date().getMonth()+1}/${new Date().getFullYear()}`}</h3>
+    <div className="main">
+      <div className='counter'>
+        <h3>{`Contador: ${counter}`}</h3>
+      </div>
+      <div className='buttonGroup'>
+        <button className='success' onClick={() => setCounter(counter+1)}> + </button>
+        <button className='error' onClick={() => setCounter(counter-1)}> - </button>
+      </div>
     </div>
   )
 }

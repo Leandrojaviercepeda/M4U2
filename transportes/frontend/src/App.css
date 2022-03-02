@@ -4,6 +4,10 @@ body {
   line-height: 20px;
 }
 
+.holder {
+  padding: 1em;
+}
+
 h2 {
   font-weight: 400;
   color: #2e64a1;
